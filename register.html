@@ -27,7 +27,8 @@
                 <input class="form-control" type="number" id="txtPetAge" placeholder="Enter Pets Age">
             </div>
 
-            <div class="mb-3">    
+            <div class="mb-3"> 
+                   
                 <input class="form-control" type="text" id="txtPetGender" placeholder="Enter Pets Gender">
              </div>
 
@@ -72,10 +73,38 @@
             🐾0
         </div>
     </div>
-
-    <div class="pets container" id="pets">
-        <!-- pets will be displayed here -->
+    <div class="container">
+        <input class="form-control" id="txtSearch" type="search">
+        <button onclick="searchPet();" class="btn btn-primary">Search</button>
     </div>
+    
+
+    <table class="table container">
+        <tr>
+            <th>Name</th>
+
+            <th>Age</th>
+
+            <th>Gender</th>
+
+            <th>Breed</th>
+
+            <th>Service</th>
+
+            <th>Owner Name</th>
+
+            <th>Pet Contact Phone</th>
+        </tr>
+
+    
+
+        <tbody id="petTables">
+        
+            
+        </tbody>
+
+
+    </table>
 
     <footer>
         <div id="footer-info">

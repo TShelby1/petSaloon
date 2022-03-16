@@ -1,3 +1,12 @@
+*{
+    letter-spacing: 1.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    color: blue;
+    text-align: center;
+}
+
 .pets{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -11,4 +20,12 @@
     color:white;
     padding:1rem;
 
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    font-size: large;
+}
+.bg-color{
+    background-color: #ffdd00;
 }

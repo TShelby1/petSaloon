@@ -1,9 +1,10 @@
 console.log("Script");
 // Create an obj literal for the pat saloon
 const petSaloon={
-    names:"The Fashion Pet",
+    
     address:{
-        street:"ave univsersity",
+        names:"The Fashion Pet",
+        street:"Ave Univsersity",
         number:"2622",
         zip:"12345",
         city:"TJ",
@@ -15,12 +16,16 @@ const petSaloon={
     },
     //create pets array 
     pets:[]
+
+    
 }
+
+
 
 
 // display the pet saloon info in the footer section of the html
 function displaySaloonInfo(){
-document.getElementById("footer-info").innerHTML;
+    document.getElementById("footer-info").innerHTML=petSaloon.address.names +" "+ petSaloon.address.street +" "+ petSaloon.address.number + " "+ petSaloon.address.zip +" "+ petSaloon.address.city +" "+ petSaloon.address.state;
 }
 displaySaloonInfo();
 

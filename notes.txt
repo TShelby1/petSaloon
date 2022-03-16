@@ -36,3 +36,19 @@ anonymous objects allows you to create objects with no name
 you can also put objects in an array
 
 to console log the array you need console.log then the object name and value, then position and other value
+
+
+
+
+need to do the recall of information, we learn but need to practice and recall, going over it with a spouse for example, helps you solidify those pathways
+
+do not use code outside the function (best practice) you can decide when to trigger when you wrap it inside the code
+
+for display, we traveled the array, adding the validations, we assumed if it was valid. (if statements)
+
+please add a good css to the index, and the register. We have a bootstap template preloaded
+
+
+
+
+COMPETENCY REPORT: APPLY CSS, ADD A NEW ATTRIBUTE LIKE METHOD OF PAYMENT, MAKE THE PET COUNTER WORK, ALMOST DEPLOYABLE READY
