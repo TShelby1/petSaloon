@@ -5,6 +5,18 @@
 header{
     color: blue;
     text-align: center;
+    background-color: rgba(107, 107, 107, 0.712);
+}
+.container{
+    margin-top:1rem;
+    margin-bottom: 5rem;
+}
+.container h2{
+    text-align: center;
+}
+
+body{
+    background-color: pink;
 }
 
 .pets{
@@ -20,6 +32,11 @@ header{
     color:white;
     padding:1rem;
 
+}
+
+.btn{
+    color: pink;
+    background-color: black;
 }
 footer{
     background-color: blue;
